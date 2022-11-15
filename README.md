@@ -37,10 +37,6 @@ library(renv)
 renv::hydrate()
 ```
 
-<a href="https://rstudio.github.io/renv/">
-  <img src="logo.svg" width="200">
-</a>
-
 ## Projects
 
 ### Bike share
