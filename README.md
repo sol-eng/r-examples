@@ -1,6 +1,7 @@
-# Posit Connect & R
+# Posit Team & R
 
 Posit Connect is a publishing platform for the work your team creates in R and [Python](https://github.com/sol-eng/python-examples).
+
 This repository contains examples of R content you can deploy to Connect, including:
 
 ## Interactive apps
