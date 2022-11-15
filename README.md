@@ -1,6 +1,6 @@
 # Posit Connect & R
 
-Posit Connect is a publishing platform for the work your team creates in R and Python.
+Posit Connect is a publishing platform for the work your team creates in R and [Python](https://github.com/sol-eng/python-examples).
 This repository contains examples of R content you can deploy to Connect, including:
 
 ## Interactive apps
@@ -29,6 +29,7 @@ You can deploy examples from this repo to your Connect server [via git-backed de
 If you want to explore an example more closely before deploying it:
 
 * Clone this repository
+* Navigate the working directory to the desired example, for example with `setwd("./shiny-penguins")`
 * Restore the needed packages from the renv lock file
 
 ```r
@@ -36,9 +37,26 @@ library(renv)
 renv::hydrate()
 ```
 
-### Want to add an example? 
+<a href="https://rstudio.github.io/renv/">
+  <img src="logo.svg" width="200">
+</a>
+
+## Projects
+
+### Bike share
+
+The "mega" bike share demo:
+
+-   To see all content on Connect filter on the tag [Bike Predict](https://colorado.rstudio.com/rsc/connect/#/content/listing?filter=min_role:viewer&filter=content_type:all&view_type=expanded&tags=111-tagtree:218)_
+-   View the Connect Widgets Dashboard:
+    -   [Solo View](https://colorado.rstudio.com/rsc/bike-share/)
+    -   [Dashboard View](https://colorado.rstudio.com/rsc/connect/#/apps/3124a8f9-7d30-44b9-a49a-552db71b036e)
+-   Source code: [https://github.com/sol-eng/bike_predict](https://github.com/sol-eng/bike_predict)
+
+## Want to add an example? 
 
 Awesome! The requirements are: 
 
 1. Use [renv](https://rstudio.github.io/renv/articles/renv.html) so that the package versions are recorded 
 2. Create the [manifest.json file](https://docs.posit.co/connect/user/git-backed/#creating-a-manifest-file-from-r) to support git-backed publishing
+
