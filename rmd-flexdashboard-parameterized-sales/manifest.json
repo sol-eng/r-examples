@@ -3326,7 +3326,7 @@
   },
   "files": {
     ".Rprofile": {
-      "checksum": "ab0a02b2a7c236b566af69ec900c6daf"
+      "checksum": "c2245a83288a6be29eb6ff554c49a5ab"
     },
     "data/all_year_sales.csv": {
       "checksum": "d1da3987fc4c2ad74f967e4161f2d342"
@@ -3335,7 +3335,7 @@
       "checksum": "8b8fad935626aee48014527ef46c957b"
     },
     "sales-dashboard.Rmd": {
-      "checksum": "06633d94342e641896931947a92651ad"
+      "checksum": "a56682e3c61caa0724f965d0acf20193"
     }
   },
   "users": null
