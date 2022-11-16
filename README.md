@@ -1,7 +1,12 @@
-# Posit Connect & R
+# Posit Team & R
+
+Posit Workbench
+
+Posit Package Manager
 
 Posit Connect is a publishing platform for the work your team creates in R and [Python](https://github.com/sol-eng/python-examples).
-This repository contains examples of R content you can deploy to Connect, including:
+
+This repository contains examples of R content, including:
 
 ## Interactive apps
 
@@ -30,16 +35,14 @@ If you want to explore an example more closely before deploying it:
 
 * Clone this repository
 * Navigate the working directory to the desired example, for example with `setwd("./shiny-penguins")`
-* Restore the needed packages from the renv lock file
+* Restore the needed packages from the renv lock file after setting your repository to the appropriate source
 
 ```r
 library(renv)
-renv::hydrate()
+#options(repos = c(REPO_NAME = "https://packagemanager.rstudio.com/cran/latest"))
+options(repos = c(REPO_NAME = "http://cran.us.r-project.org"))
+renv::restore()
 ```
-
-<a href="https://rstudio.github.io/renv/">
-  <img src="logo.svg" width="200">
-</a>
 
 ## Projects
 
