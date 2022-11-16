@@ -43,15 +43,6 @@ options(repos = c(REPO_NAME = "https://packagemanager.posit.co/cran/latest"))
 renv::restore(repos = c(REPO_NAME = "https://packagemanager.posit.co/cran/latest"))
 ```
 
-For forcing a change to a different repository: 
-```
-options(repos = c(REPO_NAME = "https://packagemanager.posit.co/cran/latest"))
-
-renv::rebuild("MASS", recursive = TRUE)
-renv::snapshot()
-```
-
-
 ## Projects
 
 ### Bike share
