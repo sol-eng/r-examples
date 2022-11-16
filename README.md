@@ -22,6 +22,7 @@ This repository contains examples of R content, including:
 - [RMarkdown using Blastula for sending emails](./rmd-blastula/README.md)
 - [RMarkdown](./rmd-penguins/README.md)
 - [Connect Widgets](./connectwidgets-penguins/README.md)
+- [RMarkdown Flexdashboard Parameterized Sales Dashboard](./rmd-flexdashboard-parameterized-sales/README.md)
 
 ## Pins
 
