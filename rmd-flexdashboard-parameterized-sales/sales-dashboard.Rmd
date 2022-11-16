@@ -45,10 +45,9 @@ library(tidyverse)
 library(lubridate)
 library(scales)
 library(downloadthis)
-library(arrow)
 thematic::thematic_rmd()
 
-main_df <- read_parquet("data/all_year_sales.parquet") %>%
+main_df <- read_csv("data/all_year_sales.csv") %>%
   mutate(total_sales = `Quantity Ordered` * `Price Each`) %>%
   filter(`Order Date` >= params$start_date, `Order Date` <= params$end_date)
 
@@ -69,18 +68,10 @@ if (params$category != "All") {
 
 \
 ```{r}
-main_df %>%
-  download_this(
-    output_name = "Sales dataset",
-    output_extension = ".csv",
-    button_label = "Download data as csv",
-    button_type = "primary",
-    has_icon = TRUE,
-    icon = "fa fa-save",
-    csv2=F
-  )
+xfun::embed_file("data/all_year_sales.csv", text = "Download Data as CSV")
 ```
 \
+
 
 Column {.tabset}
 -----------------------------------------------------------------------
@@ -141,14 +132,16 @@ Column {.tabset}
 
 ```{r}
 sales_total_week_city <- main_df %>%
-  group_by(week = floor_date(`Order Date`, 'weeks'), City) %>%
+  group_by(week = as.Date(floor_date(`Order Date`, 'weeks')), City) %>%
   summarize(Sales = sum(total_sales, na.rm = T)) %>%
   ungroup()
 
 ggplot(data=sales_total_week_city, aes(x=week, y=Sales, fill=City)) +
   geom_bar(stat="identity") +
   xlab("Week") +
+  facet_wrap(~City) +
   scale_y_continuous(labels=dollar_format(prefix="$")) +
+  scale_x_date(date_breaks = "3 month", date_labels =  "%b") +
   scale_fill_brewer(palette="Set3")
 ```
 
@@ -156,14 +149,16 @@ ggplot(data=sales_total_week_city, aes(x=week, y=Sales, fill=City)) +
 
 ```{r}
 sales_total_week_state <- main_df %>%
-  group_by(week = floor_date(`Order Date`, 'weeks'), State) %>%
+  group_by(week = as.Date(floor_date(`Order Date`, 'weeks')), State) %>%
   summarize(Sales = sum(total_sales, na.rm = T)) %>%
   ungroup()
 
 ggplot(data=sales_total_week_state, aes(x=week, y=Sales, fill=State)) +
   geom_bar(stat="identity") +
   xlab("Week") +
+  facet_wrap(~State) +
   scale_y_continuous(labels=dollar_format(prefix="$")) +
+  scale_x_date(date_breaks = "3 month", date_labels =  "%b") +
   scale_fill_brewer(palette="Set3")
 ```
 
@@ -171,13 +166,15 @@ ggplot(data=sales_total_week_state, aes(x=week, y=Sales, fill=State)) +
 
 ```{r}
 sales_total_week_category <- main_df %>%
-  group_by(week = floor_date(`Order Date`, 'weeks'), Category) %>%
+  group_by(week = as.Date(floor_date(`Order Date`, 'weeks')), Category) %>%
   summarize(Sales = sum(total_sales, na.rm = T)) %>%
   ungroup()
 
 ggplot(data=sales_total_week_category, aes(x=week, y=Sales, fill=Category)) +
   geom_bar(stat="identity") +
   xlab("Week") +
+  facet_wrap(~Category) +
   scale_y_continuous(labels=dollar_format(prefix="$")) +
+  scale_x_date(date_breaks = "3 month", date_labels =  "%b") +
   scale_fill_brewer(palette="Set3")
 ```
