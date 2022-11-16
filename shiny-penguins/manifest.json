@@ -11,8 +11,8 @@
   },
   "packages": {
     "MASS": {
-      "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Source": "REPO_NAME",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "MASS",
         "Priority": "recommended",
@@ -34,16 +34,17 @@
         "Packaged": "2022-07-27 05:37:13 UTC; ripley",
         "Author": "Brian Ripley [aut, cre, cph],\n  Bill Venables [ctb],\n  Douglas M. Bates [ctb],\n  Kurt Hornik [trl] (partial port ca 1998),\n  Albrecht Gebhardt [trl] (partial port ca 1998),\n  David Firth [ctb]",
         "Maintainer": "Brian Ripley <ripley@stats.ox.ac.uk>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2022-08-03 15:06:59 UTC",
-        "Built": "R 4.2.1; x86_64-w64-mingw32; 2022-08-14 00:50:22 UTC; windows",
+        "Encoding": "UTF-8",
+        "Built": "R 4.2.0; x86_64-w64-mingw32; 2022-10-19 21:00:40 UTC; windows",
         "ExperimentalWindowsRuntime": "ucrt",
         "Archs": "x64"
       }
     },
     "Matrix": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "Matrix",
         "Version": "1.5-3",
@@ -78,7 +79,7 @@
     },
     "R6": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -103,7 +104,7 @@
     },
     "RColorBrewer": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "RColorBrewer",
         "Version": "1.1-3",
@@ -125,7 +126,7 @@
     },
     "Rcpp": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
@@ -150,9 +151,39 @@
         "Archs": "x64"
       }
     },
+    "askpass": {
+      "Source": "REPO_NAME",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "askpass",
+        "Type": "Package",
+        "Title": "Safe Password Entry for R, Git, and SSH",
+        "Version": "1.1",
+        "Authors@R": "person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), \n    email = \"jeroen@berkeley.edu\", comment = c(ORCID = \"0000-0002-4035-0289\"))",
+        "Description": "Cross-platform utilities for prompting the user for credentials or a \n    passphrase, for example to authenticate with a server or read a protected key.\n    Includes native programs for MacOS and Windows, hence no 'tcltk' is required. \n    Password entry can be invoked in two different ways: directly from R via the \n    askpass() function, or indirectly as password-entry back-end for 'ssh-agent' \n    or 'git-credential' via the SSH_ASKPASS and GIT_ASKPASS environment variables.\n    Thereby the user can be prompted for credentials or a passphrase if needed \n    when R calls out to git or ssh.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/jeroen/askpass#readme",
+        "BugReports": "https://github.com/jeroen/askpass/issues",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "Imports": "sys (>= 2.1)",
+        "RoxygenNote": "6.1.1",
+        "Suggests": "testthat",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2019-01-13 12:08:17 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)",
+        "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
+        "Repository": "RSPM",
+        "Date/Publication": "2019-01-13 12:50:03 UTC",
+        "Built": "R 4.2.0; x86_64-w64-mingw32; 2022-04-22 19:49:29 UTC; windows",
+        "ExperimentalWindowsRuntime": "ucrt",
+        "Archs": "x64"
+      }
+    },
     "base64enc": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
@@ -176,7 +207,7 @@
     },
     "bslib": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
@@ -207,7 +238,7 @@
     },
     "cachem": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "cachem",
         "Version": "1.0.6",
@@ -234,7 +265,7 @@
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
@@ -264,7 +295,7 @@
     },
     "colorspace": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "colorspace",
         "Version": "2.0-3",
@@ -295,7 +326,7 @@
     },
     "commonmark": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "commonmark",
         "Type": "Package",
@@ -323,7 +354,7 @@
     },
     "crayon": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "crayon",
         "Title": "Colored Terminal Output",
@@ -347,9 +378,40 @@
         "Built": "R 4.2.2; ; 2022-11-10 02:02:06 UTC; windows"
       }
     },
+    "curl": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "curl",
+        "Type": "Package",
+        "Title": "A Modern and Flexible Web Client for R",
+        "Version": "4.3.3",
+        "Authors@R": "c(\n    person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroen@berkeley.edu\",\n      comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"ctb\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+        "Description": "The curl() and curl_download() functions provide highly\n    configurable drop-in replacements for base url() and download.file() with\n    better performance, support for encryption (https, ftps), gzip compression,\n    authentication, and other 'libcurl' goodies. The core of the package implements a\n    framework for performing fully customized requests where data can be processed\n    either in memory, on disk, or streaming via the callback or connection\n    interfaces. Some knowledge of 'libcurl' is recommended; for a more-user-friendly\n    web client see the 'httr' package which builds on this package with http\n    specific tools and logic.",
+        "License": "MIT + file LICENSE",
+        "SystemRequirements": "libcurl: libcurl-devel (rpm) or\nlibcurl4-openssl-dev (deb).",
+        "URL": "https://github.com/jeroen/curl (devel) https://curl.se/libcurl/\n(upstream)",
+        "BugReports": "https://github.com/jeroen/curl/issues",
+        "Suggests": "spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown,\nmagrittr, httpuv (>= 1.4.4), webutils",
+        "VignetteBuilder": "knitr",
+        "Depends": "R (>= 3.0.0)",
+        "RoxygenNote": "7.1.2",
+        "Encoding": "UTF-8",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-10-06 17:34:42 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Hadley Wickham [ctb],\n  RStudio [cph]",
+        "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-10-06 21:30:02 UTC",
+        "Built": "R 4.2.2; x86_64-w64-mingw32; 2022-11-10 02:02:12 UTC; windows",
+        "ExperimentalWindowsRuntime": "ucrt",
+        "Archs": "x64"
+      }
+    },
     "digest": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "digest",
         "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n Matthew de Queljoe, Ion Suruceanu, Bill Denney, Dirk Schumacher,\n and Winston Chang.",
@@ -376,7 +438,7 @@
     },
     "dplyr": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "dplyr",
@@ -409,7 +471,7 @@
     },
     "ellipsis": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "ellipsis",
         "Version": "0.3.2",
@@ -437,7 +499,7 @@
     },
     "fansi": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "fansi",
         "Title": "ANSI Control Sequence Aware String Functions",
@@ -467,7 +529,7 @@
     },
     "farver": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "farver",
@@ -496,7 +558,7 @@
     },
     "fastmap": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "fastmap",
         "Title": "Fast Data Structures",
@@ -523,7 +585,7 @@
     },
     "fontawesome": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "fontawesome",
@@ -552,7 +614,7 @@
     },
     "fs": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
@@ -585,7 +647,7 @@
     },
     "generics": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "generics",
         "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
@@ -613,7 +675,7 @@
     },
     "ggplot2": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "ggplot2",
         "Version": "3.4.0",
@@ -645,7 +707,7 @@
     },
     "glue": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -677,7 +739,7 @@
     },
     "gtable": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "gtable",
         "Title": "Arrange 'Grobs' in Tables",
@@ -705,7 +767,7 @@
     },
     "htmltools": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "htmltools",
         "Type": "Package",
@@ -737,7 +799,7 @@
     },
     "httpuv": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "httpuv",
         "Type": "Package",
@@ -769,7 +831,7 @@
     },
     "isoband": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "isoband",
         "Title": "Generate Isolines and Isobands from Regularly Spaced Elevation\nGrids",
@@ -799,7 +861,7 @@
     },
     "jquerylib": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "jquerylib",
         "Title": "Obtain 'jQuery' as an HTML Dependency Object",
@@ -823,7 +885,7 @@
     },
     "jsonlite": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "jsonlite",
         "Version": "1.8.3",
@@ -851,7 +913,7 @@
     },
     "labeling": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "labeling",
         "Type": "Package",
@@ -874,7 +936,7 @@
     },
     "later": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "later",
         "Type": "Package",
@@ -905,7 +967,7 @@
     },
     "lattice": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "lattice",
         "Version": "0.20-45",
@@ -936,7 +998,7 @@
     },
     "lifecycle": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
@@ -965,7 +1027,7 @@
     },
     "magrittr": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "magrittr",
@@ -996,7 +1058,7 @@
     },
     "memoise": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "memoise",
         "Title": "'Memoisation' of Functions",
@@ -1021,7 +1083,7 @@
     },
     "mgcv": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "mgcv",
         "Version": "1.8-41",
@@ -1047,7 +1109,7 @@
     },
     "mime": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -1074,7 +1136,7 @@
     },
     "munsell": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "munsell",
         "Type": "Package",
@@ -1098,7 +1160,7 @@
     },
     "nlme": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "nlme",
         "Version": "3.1-160",
@@ -1128,9 +1190,66 @@
         "Archs": "x64"
       }
     },
+    "openssl": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "openssl",
+        "Type": "Package",
+        "Title": "Toolkit for Encryption, Signatures and Certificates Based on\nOpenSSL",
+        "Version": "2.0.4",
+        "Authors@R": "c(person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroen@berkeley.edu\",\n    comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Oliver\", \"Keyes\", role = \"ctb\"))",
+        "Description": "Bindings to OpenSSL libssl and libcrypto, plus custom SSH key parsers.\n    Supports RSA, DSA and EC curves P-256, P-384, P-521, and curve25519. Cryptographic\n    signatures can either be created and verified manually or via x509 certificates. \n    AES can be used in cbc, ctr or gcm mode for symmetric encryption; RSA for asymmetric\n    (public key) encryption or EC for Diffie Hellman. High-level envelope functions \n    combine RSA and AES for encrypting arbitrary sized data. Other utilities include key\n    generators, hash functions (md5, sha1, sha256, etc), base64 encoder, a secure random\n    number generator, and 'bignum' math methods for manually performing crypto \n    calculations on large multibyte integers.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/jeroen/openssl",
+        "BugReports": "https://github.com/jeroen/openssl/issues",
+        "SystemRequirements": "OpenSSL >= 1.0.2",
+        "VignetteBuilder": "knitr",
+        "Imports": "askpass",
+        "Suggests": "curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,\njsonlite, jose, sodium",
+        "RoxygenNote": "7.2.1",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-10-17 08:56:04 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Oliver Keyes [ctb]",
+        "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-10-17 09:30:05 UTC",
+        "Built": "R 4.2.2; x86_64-w64-mingw32; 2022-11-10 03:26:46 UTC; windows",
+        "ExperimentalWindowsRuntime": "ucrt",
+        "Archs": "x64"
+      }
+    },
+    "packrat": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "packrat",
+        "Type": "Package",
+        "Title": "A Dependency Management System for Projects and their R Package\nDependencies",
+        "Version": "0.8.1",
+        "Author": "Kevin Ushey, Jonathan McPherson, Joe Cheng, Aron Atkins, JJ Allaire,\n    Toph Allen",
+        "Maintainer": "Aron Atkins <aron@rstudio.com>",
+        "Description": "Manage the R packages your project depends\n    on in an isolated, portable, and reproducible way.",
+        "License": "GPL-2",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "tools, utils",
+        "Suggests": "testthat (>= 3.0.0), devtools, httr, knitr, rmarkdown",
+        "URL": "https://github.com/rstudio/packrat/",
+        "BugReports": "https://github.com/rstudio/packrat/issues",
+        "RoxygenNote": "7.1.2",
+        "Encoding": "UTF-8",
+        "Config/testthat/edition": "3",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-06-29 19:15:34 UTC; aron",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-06-29 20:00:02 UTC",
+        "Built": "R 4.2.2; ; 2022-11-10 02:32:25 UTC; windows"
+      }
+    },
     "palmerpenguins": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "palmerpenguins",
         "Title": "Palmer Archipelago (Antarctica) Penguin Data",
@@ -1157,7 +1276,7 @@
     },
     "pillar": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "pillar",
         "Title": "Coloured Formatting for Columns",
@@ -1189,7 +1308,7 @@
     },
     "pkgconfig": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "pkgconfig",
         "Title": "Private Configuration for 'R' Packages",
@@ -1213,7 +1332,7 @@
     },
     "promises": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "promises",
         "Type": "Package",
@@ -1245,7 +1364,7 @@
     },
     "rappdirs": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "rappdirs",
@@ -1275,7 +1394,7 @@
     },
     "rlang": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "rlang",
         "Version": "1.0.6",
@@ -1307,9 +1426,61 @@
         "Archs": "x64"
       }
     },
+    "rsconnect": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "rsconnect",
+        "Type": "Package",
+        "Title": "Deployment Interface for R Markdown Documents and Shiny\nApplications",
+        "Version": "0.8.28",
+        "Authors@R": "c(\n    person(\"Aron\", \"Atkins\", role = c(\"aut\", \"cre\"), email = \"aron@rstudio.com\"),\n    person(\"Jonathan\", \"McPherson\", role = \"aut\", email = \"jonathan@rstudio.com\"),\n    person(\"JJ\", \"Allaire\", role = \"aut\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Description": "Programmatic deployment interface for 'RPubs', 'shinyapps.io', and\n    'RStudio Connect'. Supported content types include R Markdown documents,\n    Shiny applications, Plumber APIs, plots, and static web content.",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "curl, digest, jsonlite, openssl (>= 2.0.0), packrat (>= 0.6),\nrstudioapi (>= 0.5), tools, yaml (>= 2.1.5)",
+        "Suggests": "MASS, RCurl, callr, httpuv, knitr, plumber (>= 0.3.2),\nreticulate, rmarkdown (>= 1.1), shiny, sourcetools, testthat,\nxtable",
+        "License": "GPL-2",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.1",
+        "URL": "https://github.com/rstudio/rsconnect",
+        "BugReports": "https://github.com/rstudio/rsconnect/issues",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-10-24 13:23:11 UTC; aron",
+        "Author": "Aron Atkins [aut, cre],\n  Jonathan McPherson [aut],\n  JJ Allaire [aut],\n  RStudio [cph, fnd]",
+        "Maintainer": "Aron Atkins <aron@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-10-24 14:42:37 UTC",
+        "Built": "R 4.2.2; ; 2022-11-10 03:42:51 UTC; windows"
+      }
+    },
+    "rstudioapi": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "rstudioapi",
+        "Title": "Safely Access the RStudio API",
+        "Description": "Access the RStudio API (if available) and provide informative error\n    messages when it's not.",
+        "Version": "0.14",
+        "Authors@R": "c(\n    person(\"Kevin\", \"Ushey\", role = c(\"aut\", \"cre\"), email = \"kevin@rstudio.com\"),\n    person(\"JJ\", \"Allaire\", role = c(\"aut\"), email = \"jj@rstudio.com\"),\n    person(\"Hadley\", \"Wickham\", role = c(\"aut\"), email = \"hadley@rstudio.com\"),\n    person(\"Gary\", \"Ritchie\", role = c(\"aut\"), email = \"gary@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\")\n    )",
+        "Maintainer": "Kevin Ushey <kevin@rstudio.com>",
+        "License": "MIT + file LICENSE",
+        "URL": "https://rstudio.github.io/rstudioapi/,\nhttps://github.com/rstudio/rstudioapi",
+        "BugReports": "https://github.com/rstudio/rstudioapi/issues",
+        "RoxygenNote": "7.2.1.9000",
+        "Suggests": "testthat, knitr, rmarkdown, clipr, covr",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-08-22 18:55:08 UTC; kevin",
+        "Author": "Kevin Ushey [aut, cre],\n  JJ Allaire [aut],\n  Hadley Wickham [aut],\n  Gary Ritchie [aut],\n  RStudio [cph]",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-08-22 22:00:03 UTC",
+        "Built": "R 4.2.2; ; 2022-11-10 02:02:59 UTC; windows"
+      }
+    },
     "sass": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "sass",
@@ -1340,7 +1511,7 @@
     },
     "scales": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "scales",
         "Title": "Scale Functions for Visualization",
@@ -1369,7 +1540,7 @@
     },
     "shiny": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "shiny",
         "Type": "Package",
@@ -1400,7 +1571,7 @@
     },
     "shinydashboard": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "shinydashboard",
         "Title": "Create Dashboards with 'Shiny'",
@@ -1425,7 +1596,7 @@
     },
     "sourcetools": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "sourcetools",
         "Type": "Package",
@@ -1450,9 +1621,37 @@
         "Archs": "x64"
       }
     },
+    "sys": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "sys",
+        "Type": "Package",
+        "Title": "Powerful and Reliable Tools for Running System Commands in R",
+        "Version": "3.4.1",
+        "Authors@R": "c(person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), \n      email = \"jeroen@berkeley.edu\", comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = \"ctb\"))",
+        "Description": "Drop-in replacements for the base system2() function with fine control\n    and consistent behavior across platforms. Supports clean interruption, timeout, \n    background tasks, and streaming STDIN / STDOUT / STDERR over binary or text \n    connections. Arguments on Windows automatically get encoded and quoted to work \n    on different locales.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/jeroen/sys",
+        "BugReports": "https://github.com/jeroen/sys/issues",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.1",
+        "Suggests": "unix (>= 1.4), spelling, testthat",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-10-18 09:37:11 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Gábor Csárdi [ctb]",
+        "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-10-18 12:40:02 UTC",
+        "Built": "R 4.2.2; x86_64-w64-mingw32; 2022-11-10 02:02:41 UTC; windows",
+        "ExperimentalWindowsRuntime": "ucrt",
+        "Archs": "x64"
+      }
+    },
     "tibble": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "tibble",
         "Title": "Simple Data Frames",
@@ -1487,7 +1686,7 @@
     },
     "tidyselect": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "tidyselect",
         "Title": "Select from a Set of Strings",
@@ -1517,7 +1716,7 @@
     },
     "utf8": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "utf8",
         "Title": "Unicode Text Processing",
@@ -1545,7 +1744,7 @@
     },
     "vctrs": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
@@ -1578,7 +1777,7 @@
     },
     "viridisLite": {
       "Source": "CRAN",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "viridisLite",
         "Type": "Package",
@@ -1604,7 +1803,7 @@
     },
     "withr": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
@@ -1634,7 +1833,7 @@
     },
     "xtable": {
       "Source": "REPO_NAME",
-      "Repository": "http://cran.us.r-project.org",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "xtable",
         "Version": "1.8-4",
@@ -1657,14 +1856,39 @@
         "Encoding": "UTF-8",
         "Built": "R 4.2.0; ; 2022-04-22 18:22:25 UTC; windows"
       }
+    },
+    "yaml": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "yaml",
+        "Type": "Package",
+        "Title": "Methods to Convert R Data to YAML and Back",
+        "Date": "2022-10-17",
+        "Version": "2.3.6",
+        "Suggests": "RUnit",
+        "Author": "Shawn P Garbett [aut], Jeremy Stephens [aut, cre], Kirill Simonov [aut], Yihui Xie [ctb],\n  Zhuoer Dong [ctb], Hadley Wickham [ctb], Jeffrey Horner [ctb], reikoch [ctb],\n  Will Beasley [ctb], Brendan O'Connor [ctb], Gregory R. Warnes [ctb],\n  Michael Quinn [ctb], Zhian N. Kamvar [ctb]",
+        "Maintainer": "Shawn Garbett <shawn.garbett@vumc.org>",
+        "License": "BSD_3_clause + file LICENSE",
+        "Description": "Implements the 'libyaml' 'YAML' 1.1 parser and emitter\n  (<https://pyyaml.org/wiki/LibYAML>) for R.",
+        "URL": "https://github.com/vubiostat/r-yaml/",
+        "BugReports": "https://github.com/vubiostat/r-yaml/issues",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-10-17 18:13:24 UTC; garbetsp",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-10-18 08:30:02 UTC",
+        "Built": "R 4.2.1; x86_64-w64-mingw32; 2022-10-30 01:09:49 UTC; windows",
+        "ExperimentalWindowsRuntime": "ucrt",
+        "Archs": "x64"
+      }
     }
   },
   "files": {
     ".Rprofile": {
-      "checksum": "db2438df8e1c69f4b794c87c9aecf4f4"
+      "checksum": "3a80e9a263170dc4d659ac2ec2de2a98"
     },
     "app.R": {
-      "checksum": "538dffe83577b7f0e1d59415af810236"
+      "checksum": "d1c4ebf49044001b7b9b08ac4cca0948"
     },
     "imgs/app-screenshot.png": {
       "checksum": "522ac0a2e0204580549807ec41e6132b"
@@ -1673,7 +1897,7 @@
       "checksum": "89e13903059e7874e99d0457e149954a"
     },
     "README.md": {
-      "checksum": "f02cec42ee4df1d742f4eb465c9dd434"
+      "checksum": "e0666de15071be8f74a00749494bd5fb"
     }
   },
   "users": null
