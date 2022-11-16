@@ -142,7 +142,8 @@ ggplot(data=sales_total_week_city, aes(x=week, y=Sales, fill=City)) +
   facet_wrap(~City) +
   scale_y_continuous(labels=dollar_format(prefix="$")) +
   scale_x_date(date_breaks = "3 month", date_labels =  "%b") +
-  scale_fill_brewer(palette="Set3")
+  scale_fill_brewer(palette="Set3") +
+  theme(legend.position="none")
 ```
 
 ### Sales Weekly by State
@@ -159,7 +160,8 @@ ggplot(data=sales_total_week_state, aes(x=week, y=Sales, fill=State)) +
   facet_wrap(~State) +
   scale_y_continuous(labels=dollar_format(prefix="$")) +
   scale_x_date(date_breaks = "3 month", date_labels =  "%b") +
-  scale_fill_brewer(palette="Set3")
+  scale_fill_brewer(palette="Set3") +
+  theme(legend.position="none")
 ```
 
 ### Sales Weekly by Category
@@ -176,5 +178,6 @@ ggplot(data=sales_total_week_category, aes(x=week, y=Sales, fill=Category)) +
   facet_wrap(~Category) +
   scale_y_continuous(labels=dollar_format(prefix="$")) +
   scale_x_date(date_breaks = "3 month", date_labels =  "%b") +
-  scale_fill_brewer(palette="Set3")
+  scale_fill_brewer(palette="Set3") +
+  theme(legend.position="none")
 ```
