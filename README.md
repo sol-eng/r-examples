@@ -1,8 +1,6 @@
 # Posit Team & R
 
-Posit Workbench
-
-Posit Package Manager
+# Posit Connect
 
 Posit Connect is a publishing platform for the work your team creates in R and [Python](https://github.com/sol-eng/python-examples).
 
@@ -25,7 +23,7 @@ This repository contains examples of R content, including:
 
 ## Pins
 
-- [Pins](./pins-r-penguins)
+- [Pins](./pins-r-penguins/README.md)
 
 ## Getting Started
 
@@ -39,10 +37,20 @@ If you want to explore an example more closely before deploying it:
 
 ```r
 library(renv)
-#options(repos = c(REPO_NAME = "https://packagemanager.rstudio.com/cran/latest"))
-options(repos = c(REPO_NAME = "http://cran.us.r-project.org"))
-renv::restore()
+
+options(repos = c(REPO_NAME = "https://packagemanager.posit.co/cran/latest"))
+
+renv::restore(repos = c(REPO_NAME = "https://packagemanager.posit.co/cran/latest"))
 ```
+
+For forcing a change to a different repository: 
+```
+options(repos = c(REPO_NAME = "https://packagemanager.posit.co/cran/latest"))
+
+renv::rebuild("MASS", recursive = TRUE)
+renv::snapshot()
+```
+
 
 ## Projects
 
@@ -56,7 +64,23 @@ The "mega" bike share demo:
     -   [Dashboard View](https://colorado.rstudio.com/rsc/connect/#/apps/3124a8f9-7d30-44b9-a49a-552db71b036e)
 -   Source code: [https://github.com/sol-eng/bike_predict](https://github.com/sol-eng/bike_predict)
 
-## Want to add an example? 
+# Posit Workbench
+
+Posit Workbench is the development environment and supports multiple editors with RStudio Pro, VS Code, and JupyterLab and Jupyter Notebook. 
+
+This repository contains examples of some of the key features, including: 
+
+## Job Launcher 
+
+- [Simple job launching](./r-job-launcher/README.md)
+
+# Posit Package Manager
+
+Posit Package Manager hosts binaries of packages inside your network, including hosting of internally developed packages. 
+
+Feature examples upcoming. 
+
+# Want to add an example? 
 
 Awesome! The requirements are: 
 
