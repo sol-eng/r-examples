@@ -21,8 +21,10 @@ body <- shinydashboard::dashboardBody(
                 choices = c("All", levels(penguins$island))
             )
         ),
-        column(6, tags$img(src = "https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png", width = 250))
-    ),
+        column(6, tags$img(src = "https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png", width = 250)),
+        verbatimTextOutput("urlText")
+        #column(6, paste0(verbatimTextOutput("urlText")))
+        ),
     fluidRow(
         box(plotOutput("figBillVsFlipper")),
         box(plotOutput("figFlipperDist"))
@@ -39,7 +41,20 @@ ui <- shinydashboard::dashboardPage(
 )
 
 # Server functions
-server <- function(input, output) {
+server <- function(input, output, session) {
+  
+    output$urlText <- renderText({
+      paste(sep = "",
+            # "protocol: ", session$clientData$url_protocol, "\n",
+            # "hostname: ", session$clientData$url_hostname, "\n",
+            # "pathname: ", session$clientData$url_pathname, "\n",
+            # "port: ",     session$clientData$url_port,     "\n",
+            # "search: ",   session$clientData$url_search,   "\n",
+            # "sys info user: ",   Sys.info()[["user"]],   "\n",
+            # "session clientdata user: ",   session$clientData$user,   "\n",
+            "\n", "session user: ",   session$user,   "\n"
+      )
+    })
     
     selected_island <- reactive({input$islandInput})
     
