@@ -1,5 +1,5 @@
 # Connect to the board
-board <- pins::board_rsconnect(server = "https://colorado.rstudio.com/rsc")
+board <- pins::board_rsconnect(server = "https://colorado.posit.co/rsc")
 
 # Pin to the board
 board |> 
