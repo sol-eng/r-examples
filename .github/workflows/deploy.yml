@@ -19,7 +19,7 @@ jobs:
           url: https://${{ secrets.CONNECT_API_KEY }}@colorado.posit.co/rsc
           namespace: r-examples
           dir: |
-            ./connectwidgets-penguins
+            ./connectwidgets-penguins/app
             ./pins-r-penguins
             ./plumber-penguins
             ./plumber-tableau-penguins
