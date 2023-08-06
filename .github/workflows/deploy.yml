@@ -20,12 +20,12 @@ jobs:
           namespace: r-examples
           dir: |
             ./connectwidgets-penguins/app
-            ./pins-r-penguins
-            ./plumber-penguins
-            ./plumber-tableau-penguins
+            ./pins-r-penguins/report
+            ./plumber-penguins/app
+            ./plumber-tableau-penguins/app
             ./rmd-blastula
             ./rmd-flexdashboard-parameterized-sales
-            ./rmd-penguins
+            ./rmd-penguins/report
             ./shiny-penguins
           require-vanity-path: true
           access-type: all
