@@ -24,7 +24,7 @@ Your daily dose of penguins!
 
 ![](imgs/lter_penguins.png)
 
-Palmer penguins is a data set provided by Allison Horst (<https://github.com/allisonhorst/palmerpenguins/>). The goal of the package is to provide an alternative data set for data exploration & visualization as an alternative to the infamous `iris` data set.
+Palmer penguins is a data set provided by Allison Horst (<https://github.com/allisonhorst/palmerpenguins/>). The goal of the package is to provide an alternative data set for data exploration & visualization as an alternative to the `iris` data set.
 
 Here is what the first 5 rows of the data looks like.
 
