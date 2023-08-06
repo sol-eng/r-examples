@@ -39,9 +39,7 @@ If you want to explore an example more closely before deploying it:
 * Restore the needed packages from the renv lock file after setting your repository to the appropriate source
 
 ```r
-library(renv)
-#options(repos = c(REPO_NAME = "https://packagemanager.rstudio.com/cran/latest"))
-options(repos = c(REPO_NAME = "http://cran.us.r-project.org"))
+options(repos = c(CRAN = "https://p3m.dev/cran/latest"))
 renv::restore()
 ```
 
@@ -50,8 +48,7 @@ renv::restore()
 ### Bike share
 
 The "mega" bike share demo:
-
--   To see all content on Connect filter on the tag [Bike Predict](https://colorado.rstudio.com/rsc/connect/#/content/listing?filter=min_role:viewer&filter=content_type:all&view_type=expanded&tags=111-tagtree:218)_
+-   To see all content on Connect filter on the tag [Bike Predict](https://colorado.posit.co/rsc/connect/#/content/listing?filter=min_role:viewer&filter=content_type:all&view_type=expanded&tags=111-tagtree:218)_
 -   View the Connect Widgets Dashboard:
     -   [Solo View](https://colorado.rstudio.com/rsc/bike-share/)
     -   [Dashboard View](https://colorado.rstudio.com/rsc/connect/#/apps/3124a8f9-7d30-44b9-a49a-552db71b036e)
