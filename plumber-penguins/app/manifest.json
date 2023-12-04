@@ -1,7 +1,7 @@
 {
   "version": 1,
   "locale": "en_US",
-  "platform": "4.2.3",
+  "platform": "4.3.2",
   "metadata": {
     "appmode": "api",
     "primary_rmd": null,
@@ -32,7 +32,7 @@
         "Repository": "RSPM",
         "Date/Publication": "2021-08-19 14:00:05 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.2.1; ; 2023-08-04 16:07:25 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-21 20:53:00 UTC; unix"
       }
     },
     "Rcpp": {
@@ -58,7 +58,7 @@
         "Packaged": "2023-07-03 15:56:55 UTC; edd",
         "Repository": "RSPM",
         "Date/Publication": "2023-07-06 07:33:14 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:11:17 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-08-21 20:54:07 UTC; unix"
       }
     },
     "cli": {
@@ -84,10 +84,9 @@
         "Packaged": "2023-03-22 13:59:32 UTC; gaborcsardi",
         "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  RStudio [cph, fnd]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2023-03-23 12:52:05 UTC",
-        "Built": "R 4.2.0; aarch64-apple-darwin20; 2023-04-01 09:31:39 UTC; unix",
-        "Archs": "cli.so.dSYM"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-09-12 05:47:18 UTC; unix"
       }
     },
     "crayon": {
@@ -113,7 +112,7 @@
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
         "Date/Publication": "2022-09-29 16:20:24 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:13:46 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-21 20:53:55 UTC; unix"
       }
     },
     "curl": {
@@ -142,7 +141,7 @@
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
         "Repository": "RSPM",
         "Date/Publication": "2023-10-02 15:20:07 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-10-03 12:16:37 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-10-03 11:43:10 UTC; unix"
       }
     },
     "dplyr": {
@@ -152,14 +151,14 @@
         "Type": "Package",
         "Package": "dplyr",
         "Title": "A Grammar of Data Manipulation",
-        "Version": "1.1.3",
+        "Version": "1.1.4",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Romain\", \"François\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2444-4226\")),\n    person(\"Lionel\", \"Henry\", role = \"aut\"),\n    person(\"Kirill\", \"Müller\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-1416-3412\")),\n    person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4777-038X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "A fast, consistent tool for working with data frame like\n    objects, both in memory and out of memory.",
         "License": "MIT + file LICENSE",
         "URL": "https://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr",
         "BugReports": "https://github.com/tidyverse/dplyr/issues",
         "Depends": "R (>= 3.5.0)",
-        "Imports": "cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=\n1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,\nrlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),\nutils, vctrs (>= 0.6.0)",
+        "Imports": "cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=\n1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,\nrlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),\nutils, vctrs (>= 0.6.4)",
         "Suggests": "bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,\nknitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,\nrmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),\ntestthat (>= 3.1.5), tidyr (>= 1.3.0), withr",
         "VignetteBuilder": "knitr",
         "Config/Needs/website": "tidyverse, shiny, pkgdown, tidyverse/tidytemplate",
@@ -168,13 +167,12 @@
         "LazyData": "true",
         "RoxygenNote": "7.2.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-08-25 22:28:32 UTC; hadleywickham",
+        "Packaged": "2023-11-16 21:48:56 UTC; hadleywickham",
         "Author": "Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>),\n  Romain François [aut] (<https://orcid.org/0000-0002-2444-4226>),\n  Lionel Henry [aut],\n  Kirill Müller [aut] (<https://orcid.org/0000-0002-1416-3412>),\n  Davis Vaughan [aut] (<https://orcid.org/0000-0003-4777-038X>),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-09-03 16:20:02 UTC",
-        "Built": "R 4.2.0; aarch64-apple-darwin20; 2023-09-03 17:37:29 UTC; unix",
-        "Archs": "dplyr.so.dSYM"
+        "Repository": "RSPM",
+        "Date/Publication": "2023-11-17 16:50:02 UTC",
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-11-20 12:40:25 UTC; unix"
       }
     },
     "ellipsis": {
@@ -200,7 +198,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2021-04-29 12:40:02 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:08:01 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-08-21 20:53:24 UTC; unix"
       }
     },
     "fansi": {
@@ -210,7 +208,7 @@
         "Package": "fansi",
         "Title": "ANSI Control Sequence Aware String Functions",
         "Description": "Counterparts to R string manipulation functions that account for\n   the effects of ANSI text formatting control sequences.",
-        "Version": "1.0.4",
+        "Version": "1.0.5",
         "Authors@R": "c(\n    person(\"Brodie\", \"Gaslam\", email=\"brodie.gaslam@yahoo.com\",\n    role=c(\"aut\", \"cre\")),\n    person(\"Elliott\", \"Sales De Andrade\", role=\"ctb\"),\n    person(family=\"R Core Team\",\n    email=\"R-core@r-project.org\", role=\"cph\",\n    comment=\"UTF8 byte length calcs from src/util.c\"\n    ))",
         "Depends": "R (>= 3.1.0)",
         "License": "GPL-2 | GPL-3",
@@ -219,16 +217,16 @@
         "VignetteBuilder": "knitr",
         "Suggests": "unitizer, knitr, rmarkdown",
         "Imports": "grDevices, utils",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.2.3",
         "Encoding": "UTF-8",
         "Collate": "'constants.R' 'fansi-package.R' 'internal.R' 'load.R' 'misc.R'\n'nchar.R' 'strwrap.R' 'strtrim.R' 'strsplit.R' 'substr2.R'\n'trimws.R' 'tohtml.R' 'unhandled.R' 'normalize.R' 'sgr.R'",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-01-22 17:39:01 UTC; bg",
+        "Packaged": "2023-10-07 16:15:12 UTC; bg",
         "Author": "Brodie Gaslam [aut, cre],\n  Elliott Sales De Andrade [ctb],\n  R Core Team [cph] (UTF8 byte length calcs from src/util.c)",
         "Maintainer": "Brodie Gaslam <brodie.gaslam@yahoo.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2023-01-22 19:20:02 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:10:27 UTC; unix"
+        "Date/Publication": "2023-10-08 19:30:05 UTC",
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-10-09 13:00:59 UTC; unix"
       }
     },
     "fastmap": {
@@ -252,7 +250,7 @@
         "Maintainer": "Winston Chang <winston@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2023-02-24 16:30:02 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:07:58 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-08-21 20:45:15 UTC; unix"
       }
     },
     "generics": {
@@ -280,7 +278,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2022-07-05 19:40:02 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:10:26 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-21 20:51:25 UTC; unix"
       }
     },
     "glue": {
@@ -308,10 +306,9 @@
         "Packaged": "2022-02-23 22:50:40 UTC; jenny",
         "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),\n  Jennifer Bryan [aut, cre] (<https://orcid.org/0000-0002-6983-2759>),\n  RStudio [cph, fnd]",
         "Maintainer": "Jennifer Bryan <jenny@rstudio.com>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2022-02-24 07:50:20 UTC",
-        "Built": "R 4.2.0; aarch64-apple-darwin20; 2023-04-01 09:31:10 UTC; unix",
-        "Archs": "glue.so.dSYM"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-08-21 20:53:12 UTC; unix"
       }
     },
     "httpuv": {
@@ -341,7 +338,7 @@
         "Maintainer": "Winston Chang <winston@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2023-10-23 19:40:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-10-24 11:31:09 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-10-24 11:30:50 UTC; unix"
       }
     },
     "jsonlite": {
@@ -367,7 +364,7 @@
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Duncan Temple Lang [ctb],\n  Lloyd Hilaiel [cph] (author of bundled libyajl)",
         "Repository": "RSPM",
         "Date/Publication": "2023-06-29 22:10:02 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:07:35 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-09-12 05:48:25 UTC; unix"
       }
     },
     "later": {
@@ -393,9 +390,10 @@
         "Packaged": "2023-05-01 21:09:55 UTC; winston",
         "Author": "Winston Chang [aut, cre],\n  Joe Cheng [aut],\n  RStudio [cph],\n  Marcus Geelnard [ctb, cph] (TinyCThread library,\n    https://tinycthread.github.io/),\n  Evan Nemerson [ctb, cph] (TinyCThread library,\n    https://tinycthread.github.io/)",
         "Maintainer": "Winston Chang <winston@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-05-02 18:10:02 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:11:28 UTC; unix"
+        "Built": "R 4.3.0; aarch64-apple-darwin20; 2023-05-02 20:13:22 UTC; unix",
+        "Archs": "later.so.dSYM"
       }
     },
     "lifecycle": {
@@ -404,27 +402,27 @@
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
-        "Version": "1.0.3",
-        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Version": "1.0.4",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Manage the life cycle of your exported functions with shared\n    conventions, documentation badges, and user-friendly deprecation\n    warnings.",
         "License": "MIT + file LICENSE",
         "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
         "BugReports": "https://github.com/r-lib/lifecycle/issues",
-        "Depends": "R (>= 3.4)",
-        "Imports": "cli (>= 3.4.0), glue, rlang (>= 1.0.6)",
+        "Depends": "R (>= 3.6)",
+        "Imports": "cli (>= 3.4.0), glue, rlang (>= 1.1.0)",
         "Suggests": "covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),\ntibble, tidyverse, tools, vctrs, withr",
         "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse/tidytemplate, usethis",
         "Config/testthat/edition": "3",
-        "Config/Needs/website": "tidyverse/tidytemplate",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.2.1",
         "NeedsCompilation": "no",
-        "Packaged": "2022-10-07 08:50:55 UTC; lionel",
-        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  RStudio [cph, fnd]",
-        "Maintainer": "Lionel Henry <lionel@rstudio.com>",
-        "Repository": "CRAN",
-        "Date/Publication": "2022-10-07 09:50:02 UTC",
-        "Built": "R 4.2.0; ; 2023-04-01 16:39:06 UTC; unix"
+        "Packaged": "2023-11-06 16:07:36 UTC; lionel",
+        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Lionel Henry <lionel@posit.co>",
+        "Repository": "RSPM",
+        "Date/Publication": "2023-11-07 10:10:10 UTC",
+        "Built": "R 4.3.0; ; 2023-11-08 11:51:14 UTC; unix"
       }
     },
     "magrittr": {
@@ -451,10 +449,9 @@
         "Packaged": "2022-03-29 09:34:37 UTC; lionel",
         "Author": "Stefan Milton Bache [aut, cph] (Original author and creator of\n    magrittr),\n  Hadley Wickham [aut],\n  Lionel Henry [cre],\n  RStudio [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
-        "Repository": "CRAN",
+        "Repository": "RSPM",
         "Date/Publication": "2022-03-30 07:30:09 UTC",
-        "Built": "R 4.2.0; aarch64-apple-darwin20; 2023-04-01 09:31:09 UTC; unix",
-        "Archs": "magrittr.so.dSYM"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-08-21 20:50:54 UTC; unix"
       }
     },
     "mime": {
@@ -479,7 +476,7 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
         "Date/Publication": "2021-09-28 05:00:05 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:07:40 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-08-21 20:51:00 UTC; unix"
       }
     },
     "palmerpenguins": {
@@ -506,7 +503,7 @@
         "Maintainer": "Allison Horst <ahorst@ucsb.edu>",
         "Repository": "RSPM",
         "Date/Publication": "2022-08-15 07:40:07 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:15:12 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-21 20:47:30 UTC; unix"
       }
     },
     "pillar": {
@@ -539,7 +536,7 @@
         "Maintainer": "Kirill Müller <kirill@cynkra.com>",
         "Repository": "RSPM",
         "Date/Publication": "2023-03-22 08:10:02 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:10:34 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-21 20:58:12 UTC; unix"
       }
     },
     "pkgconfig": {
@@ -563,7 +560,7 @@
         "Packaged": "2019-09-22 08:42:40 UTC; gaborcsardi",
         "Repository": "RSPM",
         "Date/Publication": "2019-09-22 09:20:02 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:10:37 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-21 20:54:37 UTC; unix"
       }
     },
     "plumber": {
@@ -596,7 +593,7 @@
         "Maintainer": "Barret Schloerke <barret@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2022-09-06 19:10:02 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:15:22 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-22 03:08:02 UTC; unix"
       }
     },
     "promises": {
@@ -626,7 +623,7 @@
         "Maintainer": "Joe Cheng <joe@posit.co>",
         "Repository": "RSPM",
         "Date/Publication": "2023-08-10 16:00:02 UTC",
-        "Built": "R 4.2.3; aarch64-apple-darwin20; 2023-09-06 18:26:43 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-09-12 05:53:03 UTC; unix"
       }
     },
     "rlang": {
@@ -634,7 +631,7 @@
       "Repository": "https://p3m.dev/cran/latest",
       "description": {
         "Package": "rlang",
-        "Version": "1.1.1",
+        "Version": "1.1.2",
         "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
         "Description": "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
         "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@posit.co\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@posit.co\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\", \n           role = \"cph\", \n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\", \n           comment = \"Author of the embedded xxHash library\"),\n    person(given = \"Posit, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
@@ -652,13 +649,12 @@
         "Config/testthat/edition": "3",
         "Config/Needs/website": "dplyr, tidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-04-28 10:48:43 UTC; lionel",
+        "Packaged": "2023-10-26 16:51:17 UTC; lionel",
         "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  Posit, PBC [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-04-28 22:30:03 UTC",
-        "Built": "R 4.2.0; aarch64-apple-darwin20; 2023-04-28 23:18:58 UTC; unix",
-        "Archs": "rlang.so.dSYM"
+        "Repository": "RSPM",
+        "Date/Publication": "2023-11-04 06:30:03 UTC",
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-11-06 22:57:45 UTC; unix"
       }
     },
     "sodium": {
@@ -668,7 +664,7 @@
         "Package": "sodium",
         "Type": "Package",
         "Title": "A Modern and Easy-to-Use Crypto Library",
-        "Version": "1.3.0",
+        "Version": "1.3.1",
         "Authors@R": "person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroen@berkeley.edu\",\n    comment = c(ORCID = \"0000-0002-4035-0289\"))",
         "Description": "Bindings to 'libsodium' <https://doc.libsodium.org/>: a modern, \n    easy-to-use software library for encryption, decryption, signatures, password\n    hashing and more. Sodium uses curve25519, a state-of-the-art Diffie-Hellman \n    function by Daniel Bernstein, which has become very popular after it was \n    discovered that the NSA had backdoored Dual EC DRBG.",
         "License": "MIT + file LICENSE",
@@ -679,13 +675,13 @@
         "Suggests": "knitr, rmarkdown",
         "RoxygenNote": "7.2.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-09-26 13:47:51 UTC; jeroen",
+        "Packaged": "2023-11-20 12:47:21 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)",
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
         "Repository": "RSPM",
-        "Date/Publication": "2023-09-26 14:50:02 UTC",
+        "Date/Publication": "2023-11-20 13:40:02 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-09-28 18:38:39 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-11-21 11:23:29 UTC; unix"
       }
     },
     "stringi": {
@@ -693,28 +689,28 @@
       "Repository": "https://p3m.dev/cran/latest",
       "description": {
         "Package": "stringi",
-        "Version": "1.7.12",
-        "Date": "2023-01-09",
+        "Version": "1.8.2",
+        "Date": "2023-11-22",
         "Title": "Fast and Portable Character String Processing Facilities",
         "Description": "A collection of character string/text/natural language\n    processing tools for pattern searching (e.g., with 'Java'-like regular\n    expressions or the 'Unicode' collation algorithm), random string generation,\n    case mapping, string transliteration, concatenation, sorting, padding,\n    wrapping, Unicode normalisation, date-time formatting and parsing,\n    and many more. They are fast, consistent, convenient, and -\n    thanks to 'ICU' (International Components for Unicode) -\n    portable across all locales and platforms. Documentation about 'stringi' is\n    provided via its website at <https://stringi.gagolewski.com/> and\n    the paper by Gagolewski (2022, <doi:10.18637/jss.v103.i02>).",
         "URL": "https://stringi.gagolewski.com/,\nhttps://github.com/gagolews/stringi, https://icu.unicode.org/",
         "BugReports": "https://github.com/gagolews/stringi/issues",
-        "SystemRequirements": "C++11, ICU4C (>= 55, optional)",
+        "SystemRequirements": "ICU4C (>= 61, optional)",
         "Type": "Package",
-        "Depends": "R (>= 3.1)",
+        "Depends": "R (>= 3.4)",
         "Imports": "tools, utils, stats",
         "Biarch": "TRUE",
         "License": "file LICENSE",
         "Author": "Marek Gagolewski [aut, cre, cph] (<https://orcid.org/0000-0003-0637-6028>),\n    Bartek Tartanus [ctb], and others (stringi source code);\n    Unicode, Inc. and others (ICU4C source code, Unicode Character Database)",
         "Maintainer": "Marek Gagolewski <marek@gagolewski.com>",
-        "RoxygenNote": "7.2.1",
+        "RoxygenNote": "7.2.3",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-01-09 07:28:38 UTC; gagolews",
+        "Packaged": "2023-11-21 22:20:11 UTC; gagolews",
         "License_is_FOSS": "yes",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-01-11 10:10:02 UTC",
-        "Built": "R 4.2.0; aarch64-apple-darwin20; 2023-04-01 09:36:23 UTC; unix"
+        "Repository": "RSPM",
+        "Date/Publication": "2023-11-23 09:20:03 UTC",
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-11-24 12:10:46 UTC; unix"
       }
     },
     "swagger": {
@@ -740,7 +736,7 @@
         "Maintainer": "Barret Schloerke <barret@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2020-10-02 21:10:02 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:15:21 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-22 03:02:46 UTC; unix"
       }
     },
     "tibble": {
@@ -774,7 +770,7 @@
         "Maintainer": "Kirill Müller <kirill@cynkra.com>",
         "Repository": "RSPM",
         "Date/Publication": "2023-03-20 06:30:02 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:10:38 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-08-21 21:02:25 UTC; unix"
       }
     },
     "tidyselect": {
@@ -804,7 +800,7 @@
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
         "Repository": "RSPM",
         "Date/Publication": "2022-10-10 19:00:02 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:10:43 UTC; unix"
+        "Built": "R 4.3.0; ; 2023-08-21 21:02:52 UTC; unix"
       }
     },
     "utf8": {
@@ -813,7 +809,7 @@
       "description": {
         "Package": "utf8",
         "Title": "Unicode Text Processing",
-        "Version": "1.2.3",
+        "Version": "1.2.4",
         "Authors@R": "\n    c(person(given = c(\"Patrick\", \"O.\"),\n             family = \"Perry\",\n             role = c(\"aut\", \"cph\")),\n      person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = \"cre\",\n             email = \"kirill@cynkra.com\"),\n      person(given = \"Unicode, Inc.\",\n             role = c(\"cph\", \"dtc\"),\n             comment = \"Unicode Character Database\"))",
         "Description": "Process and print 'UTF-8' encoded international\n    text (Unicode). Input, validate, normalize, encode, format, and\n    display.",
         "License": "Apache License (== 2.0) | file LICENSE",
@@ -826,12 +822,12 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.2.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-01-31 05:28:43 UTC; kirill",
+        "Packaged": "2023-10-22 13:43:19 UTC; kirill",
         "Author": "Patrick O. Perry [aut, cph],\n  Kirill Müller [cre],\n  Unicode, Inc. [cph, dtc] (Unicode Character Database)",
         "Maintainer": "Kirill Müller <kirill@cynkra.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2023-01-31 18:00:02 UTC",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:10:31 UTC; unix"
+        "Date/Publication": "2023-10-22 21:50:02 UTC",
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-10-24 11:28:45 UTC; unix"
       }
     },
     "vctrs": {
@@ -840,7 +836,7 @@
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
-        "Version": "0.6.3",
+        "Version": "0.6.5",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"),\n    person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"data.table team\", role = \"cph\",\n           comment = \"Radix sort based on data.table's forder() and their contribution to R's order()\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Defines new notions of prototype and size that are used to\n    provide tools for consistent and well-founded type-coercion and\n    size-recycling, and are in turn connected to ideas of type- and\n    size-stability useful for analysing function interfaces.",
         "License": "MIT + file LICENSE",
@@ -856,13 +852,12 @@
         "Language": "en-GB",
         "RoxygenNote": "7.2.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-06-14 21:04:57 UTC; davis",
+        "Packaged": "2023-12-01 16:27:12 UTC; davis",
         "Author": "Hadley Wickham [aut],\n  Lionel Henry [aut],\n  Davis Vaughan [aut, cre],\n  data.table team [cph] (Radix sort based on data.table's forder() and\n    their contribution to R's order()),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Davis Vaughan <davis@posit.co>",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-06-14 23:40:02 UTC",
-        "Built": "R 4.2.0; aarch64-apple-darwin20; 2023-06-19 02:58:37 UTC; unix",
-        "Archs": "vctrs.so.dSYM"
+        "Repository": "RSPM",
+        "Date/Publication": "2023-12-01 23:50:02 UTC",
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-12-04 12:31:13 UTC; unix"
       }
     },
     "webutils": {
@@ -872,23 +867,23 @@
         "Package": "webutils",
         "Type": "Package",
         "Title": "Utility Functions for Developing Web Applications",
-        "Version": "1.1",
+        "Version": "1.2.0",
         "Author": "Jeroen Ooms",
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
         "Description": "Parses http request data in application/json, multipart/form-data, \n    or application/x-www-form-urlencoded format. Includes example of hosting\n    and parsing html form data in R using either 'httpuv' or 'Rhttpd'.",
         "License": "MIT + file LICENSE",
-        "URL": "https://github.com/jeroen/webutils",
+        "URL": "https://jeroen.r-universe.dev/webutils",
         "BugReports": "https://github.com/jeroen/webutils/issues",
         "Imports": "curl (>= 2.5), jsonlite",
         "Suggests": "httpuv, testthat",
         "RoxygenNote": "7.0.2",
         "Language": "en-US",
         "NeedsCompilation": "yes",
-        "Packaged": "2020-04-28 20:22:33 UTC; jeroen",
+        "Packaged": "2023-11-24 11:34:37 UTC; jeroen",
         "Repository": "RSPM",
-        "Date/Publication": "2020-04-28 21:00:02 UTC",
+        "Date/Publication": "2023-11-24 12:00:02 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.2.1; aarch64-apple-darwin20; 2023-08-04 16:15:15 UTC; unix"
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-11-27 11:41:17 UTC; unix"
       }
     },
     "withr": {
@@ -897,8 +892,8 @@
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
-        "Version": "2.5.0",
-        "Authors@R": "\n    c(person(given = \"Jim\",\n             family = \"Hester\",\n             role = \"aut\"),\n      person(given = \"Lionel\",\n             family = \"Henry\",\n             role = c(\"aut\", \"cre\"),\n             email = \"lionel@rstudio.com\"),\n      person(given = \"Kirill\",\n             family = \"Müller\",\n             role = \"aut\",\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Kevin\",\n             family = \"Ushey\",\n             role = \"aut\",\n             email = \"kevinushey@gmail.com\"),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Winston\",\n             family = \"Chang\",\n             role = \"aut\"),\n      person(given = \"Jennifer\",\n             family = \"Bryan\",\n             role = \"ctb\"),\n      person(given = \"Richard\",\n             family = \"Cotton\",\n             role = \"ctb\"),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")))",
+        "Version": "2.5.2",
+        "Authors@R": "\n    c(person(given = \"Jim\",\n             family = \"Hester\",\n             role = \"aut\"),\n      person(given = \"Lionel\",\n             family = \"Henry\",\n             role = c(\"aut\", \"cre\"),\n             email = \"lionel@posit.co\"),\n      person(given = \"Kirill\",\n             family = \"Müller\",\n             role = \"aut\",\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Kevin\",\n             family = \"Ushey\",\n             role = \"aut\",\n             email = \"kevinushey@gmail.com\"),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Winston\",\n             family = \"Chang\",\n             role = \"aut\"),\n      person(given = \"Jennifer\",\n             family = \"Bryan\",\n             role = \"ctb\"),\n      person(given = \"Richard\",\n             family = \"Cotton\",\n             role = \"ctb\"),\n      person(given = \"Posit Software, PBC\",\n             role = c(\"cph\", \"fnd\")))",
         "Description": "A set of functions to run code 'with' safely and\n    temporarily modified global state. Many of these functions were\n    originally a part of the 'devtools' package, this provides a simple\n    package with limited dependencies to provide access to these\n    functions.",
         "License": "MIT + file LICENSE",
         "URL": "https://withr.r-lib.org, https://github.com/r-lib/withr#readme",
@@ -913,12 +908,12 @@
         "Config/testthat/edition": "3",
         "Config/Needs/website": "tidyverse/tidytemplate",
         "NeedsCompilation": "no",
-        "Packaged": "2022-03-03 21:13:01 UTC; lionel",
-        "Author": "Jim Hester [aut],\n  Lionel Henry [aut, cre],\n  Kirill Müller [aut],\n  Kevin Ushey [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Jennifer Bryan [ctb],\n  Richard Cotton [ctb],\n  RStudio [cph, fnd]",
-        "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+        "Packaged": "2023-10-24 08:50:10 UTC; lionel",
+        "Author": "Jim Hester [aut],\n  Lionel Henry [aut, cre],\n  Kirill Müller [aut],\n  Kevin Ushey [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Jennifer Bryan [ctb],\n  Richard Cotton [ctb],\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "RSPM",
-        "Date/Publication": "2022-03-03 21:50:02 UTC",
-        "Built": "R 4.2.1; ; 2023-08-04 16:10:41 UTC; unix"
+        "Date/Publication": "2023-10-30 09:10:02 UTC",
+        "Built": "R 4.3.0; ; 2023-10-31 12:16:57 UTC; unix"
       }
     }
   },
